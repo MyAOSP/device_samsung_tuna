@@ -29,8 +29,10 @@ ARCH_ARM_HAVE_TLS_REGISTER := true
 
 TARGET_NO_BOOTLOADER := true
 
+# kernel
 BOARD_KERNEL_BASE := 0x80000000
 # BOARD_KERNEL_CMDLINE :=
+TARGET_PREBUILT_KERNEL := device/samsung/tuna/kernel
 
 # Define kernel config for inline building
 TARGET_KERNEL_CONFIG := tuna_defconfig
