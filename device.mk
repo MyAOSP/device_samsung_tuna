@@ -49,6 +49,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 	power.tuna
 
+# torch
+PRODUCT_PACKAGES += \
+	Torch
+
 # Audio
 PRODUCT_PACKAGES += \
 	audio.primary.tuna \
