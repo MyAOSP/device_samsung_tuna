@@ -2,12 +2,7 @@
 <resources>
     <string name="app_name">Galaxy Nexus Settings</string>
 
-    <!-- Page Headers -->
-    <string name="general_title">GENERAL</string>
-    <string name="display_title">DISPLAY</string>
-
-    <string name="category_cpu_title">CPU</string>
-    <string name="category_screen_title">WM8994 Settings ( voodoo )</string>
+    <string name="category_display_title">Display</string>
     <string name="color_tuning_title_head">Color Multipliers Tuning</string>
     <string name="color_tuning_summary_head">Calibrate multipliers screen color</string>
     <string name="gamma_tuning_title_head">Color Gamma Tuning</string>
@@ -26,12 +21,13 @@
     <string name="color_warning">Values higher than 200 are not recommended</string>
     <string name="gamma_dss_title">DSS Gamma Set.</string>
 
-    <string name="category_hardware_title">CPU</string>
+    <string name="category_hardware_title">Hardware</string>
     <string name="vibrator_tuning_title_head">Vibrator feedback tuning</string>
     <string name="vibrator_tuning_summary_head">Controls the default power of vibrator feedback</string>
 
     <string name="vibrator_title">Vibration %</string>
     <string name="vibrator_default_title">Default</string>
+    <string name="vibrator_test_title">Test</string>
 
     <string name="preset1_default_title">Default</string>
     <string name="preset2_default_title">Maximum</string>
@@ -48,5 +44,8 @@
     <string name="category_radio_title">Radio</string>
     <string name="hspa_title_head">HSPA</string>
     <string name="hspa_summary_head">Enable HSDPA/HSUPA</string>
+
+    <string name="category_gpu_title">GPU</string>
+    <string name="gpu_overclock_title">Clock Speed</string>
 
 </resources>
